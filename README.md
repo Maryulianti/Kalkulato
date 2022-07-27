@@ -1,2 +1,2 @@
-# Kalkulato
+# Kalkulator
 Aplikasi Kalkulator Website
