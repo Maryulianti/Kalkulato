@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Kalkulator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://localhost/Kalkulator/assets/bootstrap.css">
+    <link rel="stylesheet" href="http://localhost/Kalkulator/assets/style.css">
+    <script src="http://localhost/Kalkulator/assets/javascriptsaya.js"></script>
+    <!-- jQuery library -->
+    <script src="http://localhost/Kalkulator/assets/jquery.js"></script>
+
+    <!-- Popper JS -->
+    <script src="http://localhost/Kalkulator/assets/popper.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://localhost/Kalkulator/assets/bootstrap.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+        <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>APLIKASI KALKULATOR {Maryulianti}</h1></div>
+
+        <div class="row"> 
+            <div class="col-sm-8 utama">
+            	<div class="row">
+                <div class="col-sm-6 number">
+                    <p>ANGKA 1: </p>
+                    <input id="a1" type="number" name="a1" style="margin-bottom: 5%;">
+                    <br/>
+                    <div><button onclick="penjumlahan()"><h1>+</h1></button></div>
+                    <br/>
+                    <div><button onclick="pembagian()"><h1>/</h1></button></div>
+                </div>
+                    <div class="col-sm-6 number">
+                        <p>ANGKA 2: </p>
+                        <input id="a2" type="text" name="a2" style="margin-bottom: 5%;">
+                        <div><button onclick="pengurangan()"><h1>-</h1></button></div>
+                        <br/>
+                        <div><button onclick="perkalian()"><h1>x</h1></button></div>
+                    </div>
+                </div>
+                    <div class="col-sm-12">        
+                   HASIL:
+                    <div id="hasil">.....</div>
+                    </div>
+            </div>
+            <div class="col-sm-4 biodata">
+                <h2>Biodata Saya : </h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">Nama : Maryulianti</li>
+                        <li class="list-group-item">NIM : 42519011</li>
+                        <li class="list-group-item">Jurusan : Teknik Elektro</li>
+                        <li class="list-group-item">prodi : D4 Teknik Komputer dan Jaringan</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="copyright">
+                <div class="col-sm-12">
+                    <b>Copyright Yulhy Maryu 2021</b>
+                </div>
+                </div>
+            </div>
+          </div>
+    </body>
+</html>
